@@ -27,7 +27,7 @@ do_mcp = true; do_scad = true
 ΔTmax = 60. #Time limit for the cutting plane algorithm
 
 
-for ARG in ARGS
+for ARG in ARGS #ARGS correspond to the number given in the command julia synthetic_problem.jl xxx
     array_num = parse(Int, ARG)
 
     iter_run = array_num % 10   #Number of the simulation
